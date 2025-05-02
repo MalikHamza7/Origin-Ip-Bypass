@@ -2,17 +2,27 @@
 
 A tool to discover origin IPs by bypassing WAF protection.
 
-Developed By M Hamza
+Web Origin IP Bypass
+A powerful Python-based tool designed to discover the real origin IP of a website by bypassing WAF (Web Application Firewall) protection. It performs subdomain enumeration, detects unprotected endpoints, extracts ASN details, identifies IP ranges, verifies live IPs, and scans for exposed web services.
 
-## Overview
+🔍 Features:
 
-Web Origin IP Bypass helps penetration testers and security researchers discover the true origin IP addresses of websites protected by WAFs (Web Application Firewalls). This tool follows a methodical workflow:
+Subdomain enumeration
 
-1. Gather subdomains for the target domain
-2. Hunt for subdomains without WAF protection
-3. Extract ASN (Autonomous System Number) information
-4. Check BGP data to identify IP ranges
-5. Verify live IPs that could be origin servers
+WAF detection (e.g., Cloudflare, F5 BIG-IP)
+
+ASN extraction & IP range lookup
+
+Live IP verification
+
+Web port scanning (80, 443, 8080, etc.)
+
+Interactive and command-line modes
+
+Clean, color-coded terminal UI
+
+
+
 
 ## Features
 
@@ -28,7 +38,7 @@ Web Origin IP Bypass helps penetration testers and security researchers discover
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/web-origin-ip-bypass.git
+git clone https://github.com/MalikHamza7/Origin-Ip-Bypass
 cd web-origin-ip-bypass
 
 # Install requirements
