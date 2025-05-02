@@ -17,12 +17,6 @@ Live IP verification
 
 Web port scanning (80, 443, 8080, etc.)
 
-Interactive and command-line modes
-
-Clean, color-coded terminal UI
-
-
-
 
 ## Features
 
