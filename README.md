@@ -84,6 +84,7 @@ python main.py -h
 # Show usage examples
 python main.py --help-examples
 ```
+![image](https://github.com/user-attachments/assets/062c64de-162d-429a-9ee7-58de1cb448d1)
 
 ## Disclaimer
 
